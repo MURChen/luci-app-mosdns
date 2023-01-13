@@ -42,8 +42,6 @@ CHECK() (
 		exit 1;
 	else
 		echo -e "${GREEN_COLOR}Update opkg sources ...${RES}"
-		opkg update
-		opkg install luci-compat
 	fi
 )
 
